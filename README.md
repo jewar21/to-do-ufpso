@@ -2,13 +2,13 @@
 
 Esta es la planeación de este proyecto.
 
-## 1) Apertura (5 min)
+## 1) Apertura
 
 **Mensaje:** “Este curso va a construir una app real. Hoy no programamos: hoy definimos lo que vamos a construir para no perdernos en la semana 6.”
 
 ---
 
-## 2) Contexto del producto (10 min)
+## 2) Contexto del producto
 
 ### Nombre del producto
 
@@ -29,7 +29,7 @@ Permitir que cada usuario gestione sus tareas personales de forma segura, simple
 
 ---
 
-## 3) Requisitos funcionales (15 min)
+## 3) Requisitos funcionales
 
 Los escribes como “El sistema debe…”.
 
@@ -69,7 +69,7 @@ Los escribes como “El sistema debe…”.
 
 ---
 
-## 4) Requisitos no funcionales (10 min)
+## 4) Requisitos no funcionales
 
 **RNF1.** La app debe mostrar estados: loading/empty/error.
 
@@ -83,7 +83,7 @@ Los escribes como “El sistema debe…”.
 
 ---
 
-## 5) Historias de usuario + criterios de aceptación (20 min)
+## 5) Historias de usuario + criterios de aceptación
 
 Aquí es donde se ponen serios (sin aburrirse).
 
@@ -130,7 +130,7 @@ Como usuario quiero marcar tareas como completadas para llevar control.
 
 ---
 
-## 6) Modelo de datos (Firestore) (10 min)
+## 6) Modelo de datos (Firestore)
 
 Colección: `tasks`
 
@@ -153,7 +153,7 @@ Extras:
 
 ---
 
-## 7) Diseño (wireframes rápidos) (10 min)
+## 7) Diseño (wireframes rápidos)
 
 En tablero o papel:
 
@@ -171,47 +171,45 @@ Define componentes:
 
 ---
 
-## 8) Definir fases del proyecto (5 min)
+## 8) Definir fases del proyecto
 
 Enfatiza que el curso seguirá estas fases:
 
-### Fase 0 — Planeación y diseño (Semana 1)
+### Fase 0 — Planeación y diseño
 
 - Requisitos + historias + modelo + wireframes
 
-### Fase 1 — UI + navegación (Semanas 2–3)
+### Fase 1 — UI + navegación
 
 - Pantallas y flujo
 
-### Fase 2 — Auth (Semana 4)
+### Fase 2 — Auth
 
 - Firebase Auth
 
-### Fase 3 — CRUD (Semanas 5–6)
+### Fase 3 — CRUD
 
 - Firestore tasks
 
-### Fase 4 — Arquitectura y estado (Semana 7)
+### Fase 4 — Arquitectura y estado
 
 - capas y state management
 
-### Fase 5 — Offline + reglas (Semanas 8–10)
+### Fase 5 — Offline + reglas
 
 - sincronización + security rules
 
-### Fase 6 — Calidad + release (Semanas 11–12)
+### Fase 6 — Calidad + release
 
 - tests + APK + docs
 
-### Final — Mini-proyecto equipos (Semanas 13–14)
+### Final — Mini-proyecto equipos
 
 ---
 
-# Entregable de hoy (sin código)
+# Entregable
 
-Para cerrar la sesión A o dejarlo para la sesión B:
-
-✅ **Documento “Especificación To-Do UFPSO v1”** (1–2 páginas) con:
+**Documento “Especificación To-Do UFPSO v1”** (1–2 páginas) con:
 
 1. Objetivo del producto
 2. RF (MVP + extras)
@@ -221,7 +219,7 @@ Para cerrar la sesión A o dejarlo para la sesión B:
 
 ---
 
-# Sesión B (90 min) — Taller de especificación (en equipos)
+# Sesión B — Taller de especificación (en equipos)
 
 ### Actividad
 
@@ -232,7 +230,7 @@ En equipos de 3–4:
 - Definir 8 historias totales (6 MVP + 2 extras)
 - Presentación relámpago (2 min por equipo)
 
-### Rúbrica del documento (100)
+### Rúbrica del documento
 
 - 30: requisitos claros y completos (MVP)
 - 30: historias + criterios de aceptación bien escritos
