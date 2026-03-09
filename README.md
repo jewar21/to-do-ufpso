@@ -239,3 +239,12 @@ En equipos de 3–4:
 - 20: modelo de datos coherente
 - 10: wireframes claros
 - 10: calidad del documento (orden, claridad)
+
+---
+
+## 📚 Documentación y Material de Referencia
+
+Para facilitar el aprendizaje y el desarrollo, aquí tienes enlaces directos a guías y explicaciones adicionales del proyecto:
+
+- 📂 [Estructura del Proyecto](./docs/01_estructura_proyecto.md): Conoce cómo están organizadas las carpetas y archivos, y para qué sirve cada una.
+- 🧪 [Pruebas Unitarias en Flutter](./docs/02_pruebas_unitarias.md): Descubre qué son, por qué son vitales para mantener la calidad del código, y cómo usar nuestros ejemplos en el proyecto.
