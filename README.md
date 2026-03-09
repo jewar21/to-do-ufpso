@@ -248,3 +248,4 @@ Para facilitar el aprendizaje y el desarrollo, aquí tienes enlaces directos a g
 
 - 📂 [Estructura del Proyecto](./docs/01_estructura_proyecto.md): Conoce cómo están organizadas las carpetas y archivos, y para qué sirve cada una.
 - 🧪 [Pruebas Unitarias en Flutter](./docs/02_pruebas_unitarias.md): Descubre qué son, por qué son vitales para mantener la calidad del código, y cómo usar nuestros ejemplos en el proyecto.
+- 📝 [Registro de Usuario (UI Validaciones)](./docs/03_registro_ui.md): Explicación del flujo de "Mock Login" de esta primera fase de interfaz y ejemplos de campos funcionales.
