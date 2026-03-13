@@ -208,6 +208,54 @@ Como usuario quiero iniciar sesión con mi cuenta real para acceder a mis tareas
 - Entonces inicio sesión en Firebase Auth y entro a Home
 - Y si las credenciales son incorrectas, se muestra un mensaje entendible.
 
+### HU-09 Persistencia de tareas
+
+Como usuario quiero que mis tareas se guarden en la base de datos para no perderlas al cerrar la app.
+
+**CA:**
+
+- Dado que estoy autenticado
+- Cuando creo una tarea válida
+- Entonces la tarea se guarda en Firestore
+- Y al volver a abrir la app, la tarea sigue disponible
+- Y si ocurre un error al guardar, se muestra un mensaje entendible.
+
+### HU-10 Listado de tareas persistidas
+
+Como usuario quiero que la app cargue mis tareas guardadas para continuar mi trabajo desde cualquier momento.
+
+**CA:**
+
+- Dado que tengo tareas guardadas en la base de datos
+- Cuando ingreso a Home
+- Entonces el sistema consulta y muestra mis tareas
+- Y solo veo las tareas asociadas a mi cuenta
+- Y si no existen tareas, se muestra el estado vacío.
+
+### HU-11 Trabajo offline
+
+Como usuario quiero poder crear y consultar tareas sin internet para seguir usando la app cuando no tenga conexión.
+
+**CA:**
+
+- Dado que no tengo conexión a internet
+- Cuando creo o edito una tarea
+- Entonces el cambio se guarda localmente
+- Y puedo seguir viendo mis tareas disponibles en el dispositivo
+- Y la app no bloquea el flujo principal por falta de conexión.
+
+### HU-12 Sincronización al reconectar
+
+Como usuario quiero que mis cambios offline se sincronicen automáticamente cuando vuelva el internet para mantener mi información actualizada.
+
+**CA:**
+
+- Dado que hice cambios sin conexión
+- Cuando el dispositivo recupera internet
+- Entonces la app sincroniza los cambios con Firestore
+- Y las tareas quedan actualizadas en la base de datos
+- Y si ocurre un conflicto o error, se informa con un mensaje claro.
+
 > Con 6–8 historias con CA ya tienes un backlog sólido.
 > 
 
